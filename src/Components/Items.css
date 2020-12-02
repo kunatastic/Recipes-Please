@@ -1,0 +1,15 @@
+.page-changer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0.5em;
+}
+
+.page-changer button {
+  width: 7vw;
+  margin: 0.5em;
+}
+
+h1 {
+  text-align: center;
+}

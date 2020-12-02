@@ -1,11 +1,8 @@
-.App {
-  text-align: center;
-}
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
 }
+@import url("https://fonts.googleapis.com/css2?family=Sansita+Swashed&display=swap");
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
@@ -35,4 +32,27 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(179, 15, 15);
+  color: rgb(248, 232, 232);
+  text-align: center;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  font-family: "Sansita Swashed", cursive;
+  letter-spacing: 0px;
+  font-size: 125%;
+  outline: none;
+  word-spacing: 7px;
+  text-decoration: none;
+  color: rgb(248, 232, 232);
 }
