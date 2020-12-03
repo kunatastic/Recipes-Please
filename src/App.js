@@ -21,8 +21,8 @@ function App() {
             exact
             render={(props) => <Items search={search} />}
           />
-          <Route path={`/${search}/:id`} exact component={Cooking} />
         </Switch>
+        <Route path={`/${search}/:id`} exact component={Cooking} />
         <Footer />
       </div>
     </Router>

@@ -1,7 +1,16 @@
 import React from "react";
 import "./Cooking.css";
+
 function Cooking({ match, location }) {
   console.log(location);
+
+  if (window.performance) {
+    if (performance.navigation.type === 1) {
+      alert("This page is reloaded");
+    } else {
+      alert("This page is not reloaded");
+    }
+  }
 
   return (
     <div>
